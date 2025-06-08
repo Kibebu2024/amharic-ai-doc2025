@@ -1,0 +1,5 @@
+cd amharic-ai-docs
+git init
+git add .
+git commit -m "Add bilingual documentation for Amharic AI platform"
+gh repo create amharic-ai-docs --public --source=. --push
