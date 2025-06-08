@@ -13,17 +13,29 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload GitHub Pages content
+      - name: Upload content from /docs
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v3
+
+  # Optional: Example job to use OPENAI_API_KEY
+  call_openai:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Example: Access OPENAI_API_KEY
+        run: echo "Using API key: ${{ secrets.OPENAI_API_KEY }}"
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
