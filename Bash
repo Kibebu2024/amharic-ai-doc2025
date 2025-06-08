@@ -1,5 +1,3 @@
-cd amharic-ai-docs
-git init
-git add .
-git commit -m "Add bilingual documentation for Amharic AI platform"
-gh repo create amharic-ai-docs --public --source=. --push
+git add .github/workflows/pages.yml
+git commit -m "Use static GitHub Pages deployment (no Jekyll)"
+git push
