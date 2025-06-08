@@ -1,0 +1,25 @@
+# 📘 Amharic AI Learning Platform – Bilingual Documentation
+
+This repository contains the bilingual (English and Amharic) documentation for the **Amharic AI Learning Platform** powered by GPT and Supabase.
+
+## 📄 Files Included
+
+- `Amharic_AI_Project_EN.pdf` – Full technical documentation (English)
+- `Amharic_AI_Project_Amharic.pdf` – Translated documentation (Amharic)
+
+## 🌍 Overview
+
+This documentation covers:
+- Environment setup
+- Deployment with Vercel
+- Supabase integration
+- OpenAI GPT-3.5 turbo usage
+- ChatBotPanel + API integration
+
+## 🛠 Usage
+
+You can use this as a companion reference while working with the main Amharic AI Next.js repo.
+
+## 🔖 License
+
+MIT © 2025
