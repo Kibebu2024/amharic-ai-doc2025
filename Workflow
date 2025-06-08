@@ -1,0 +1,10 @@
+amharic-ai-docs/
+├── Amharic_AI_Project_EN.pdf
+├── Amharic_AI_Project_Amharic.pdf
+└── docs/
+    ├── index.html      ← copy from above
+    ├── guide.md        ← copy from above
+    └── images/
+        ├── architecture.png
+        ├── chatbot_ui.png
+        └── dashboard_ui.png
